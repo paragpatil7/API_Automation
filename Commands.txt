@@ -1,0 +1,26 @@
+java -cp APIAutomation.jar;APIAutomation-tests.jar;libs/* com.automation.test.TestRunner  mvn -Dtest=com.automation.test.TestRunner
+
+to create the jar file
+mvn clean package -DskipSteps
+
+to execute tests from jar file 
+Working
+java -cp APIAutomation.jar;APIAutomation-tests.jar;libs/*  org.junit.runner.JUnitCore com.automation.test.TestRunner.TestRunner
+
+java -cp APIAutomation.jar:APIAutomation-tests.jar:libs/*  org.junit.runner.JUnitCore com.automation.test.TestRunner.TestRunner
+
+
+run command
+docker build -t=paragpatil7/apiautomation-docker .
+
+docker run paragpatil7/apiautomation-docker
+
+docker run -v ./output:/usr/share/Parag/reports paragpatil7/apiautomation-docker
+
+-v /home/qa/parag:user/share/parag/test-output
+
+docker run -it --entrypoint=/bin/sh paragpatil7/apiautomation-docker
+
+
+
+docker push paragpatil7/apiautomation-docker:latest

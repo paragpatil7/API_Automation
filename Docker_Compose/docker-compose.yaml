@@ -1,0 +1,7 @@
+version: "3"
+services:
+  
+  apiautomation:
+    image: paragpatil7/apiautomation-docker
+    volumes:
+      - ./output:/usr/share/Parag/reports

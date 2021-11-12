@@ -1,0 +1,6 @@
+#surefire
+#Thu Nov 11 19:26:52 IST 2021
+basedir=F\:\\parag\\javaWorkspace\\API_Automation
+user.dir=F\:\\parag\\javaWorkspace\\API_Automation
+skipSteps=true
+localRepository=C\:\\Users\\hp\\.m2\\repository
